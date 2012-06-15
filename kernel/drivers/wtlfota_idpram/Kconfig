@@ -1,0 +1,10 @@
+# drivers/wtlfota_idpram/Kconfig
+#
+#
+
+config SAMSUNG_WTL_FOTA_IDPRAM
+	tristate "Samsung WTL Internal DPRAM driver for CP FOTA update"
+	depends on SAMSUNG_MODULES
+	default n
+	help
+	  This module is needed in recovery image to update CP.
